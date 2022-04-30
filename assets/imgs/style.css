@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+
+}
+:root{
+    --clr-gold: #d39038;
+    --clr-btn: #d33838;
+    --clr-btn-bg: #fff;
+}
+.txt h1 {
+    font-size: 100px;
+    color: var(--clr-gold);
+    margin-top: 200px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color:var(--clr-btn);
+    border-radius: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+    padding: 14px 40px;
+    border-radius: 10%;
+    color: white;
+    background-color: var(--clr-gold);
+    border: solid;
+}
